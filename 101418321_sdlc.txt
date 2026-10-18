@@ -64,3 +64,5 @@ The SDLC discussion and Group 10 example are explanatory applications of the
 outline's topics, rather than quotations from the document.
 
 Preparation: AI-assisted explanation based on the supplied course outline.
+
+If an automated test fails after a change, the team should investigate and fix the problem before releasing that change.

@@ -1,0 +1,60 @@
+COMP3104 - DEVOPS COURSE INFORMATION
+Student: Taharim Haque
+Student ID: 101418321
+Group: 10
+
+1. Course purpose
+COMP3104 introduces the procedures, responsibilities and best practices used
+by DevOps engineers to improve software delivery and workplace productivity.
+The course combines analysis of DevOps approaches with practical activities
+using industry tools. It also emphasizes communication between people who
+develop software and people who operate and support it.
+
+2. Skills and learning outcomes
+The course outline expects students to apply DevOps techniques through
+hands-on work. Topics include continuous integration, continuous delivery,
+continuous deployment, the software development life cycle and application
+containerization. Students also study version-control workflows that support
+lower-risk releases, code-quality monitoring and application hosting.
+Other outcomes cover architectural decisions, Infrastructure as Code, cloud
+services and the responsibilities of a DevOps engineer.
+
+3. Git, GitHub and collaboration
+Early course topics include Bash, command-line tools, Git and GitHub.
+Students learn version-control concepts, remote repositories and workflows
+for collaborating on software. The outline also includes SSH, access tokens
+and command-line text editors. These topics support practical work such as
+creating a branch, recording changes with commits and combining contributions
+through a shared repository.
+
+4. Automation and software delivery
+The schedule introduces build pipelines, Travis CI and Jenkins. It covers
+integrating code changes, continuous testing, pipeline monitoring and release
+strategies. Gradle and Maven appear in the build-tool topics, while Jira is
+included for work tracking. The purpose is to understand how repeatable
+processes can help teams validate and deliver software changes.
+
+5. Infrastructure, quality and architecture
+Later topics include cloud infrastructure, security practices, automated
+testing and source-code quality checks with SonarQube. The outline discusses
+BDD and TDD, testing tools such as Selenium and Appium, and test reports.
+It also introduces Docker, configuration and provisioning tools, monitoring,
+and scripts written in formats such as YAML and Dockerfiles. Architectural
+topics compare monolithic applications with microservices and consider
+vertical and horizontal scaling.
+
+6. Connection to the Group 10 assignment
+The shared GitHub repository gives the team a practical setting for applying
+version control and collaboration. Each member's branch separates their work
+while commits document progress. Pull requests provide an opportunity to
+review changes before combining them. The assignment's GitHub Actions
+workflow illustrates automated checks; GitHub Actions is the assignment tool,
+while Travis CI and Jenkins are explicitly named in the supplied course outline.
+
+Source
+CSI-COMP3104.pdf, supplied COMP3104 - DevOps course outline:
+- Pages 1-2: course description, outcomes and resources.
+- Pages 3-6: assessment information and topical schedule.
+The outline states that the topical schedule may change with notification.
+
+Preparation: AI-assisted paraphrase and explanation of the supplied outline.

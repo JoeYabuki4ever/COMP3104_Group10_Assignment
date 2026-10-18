@@ -1,0 +1,66 @@
+WHY DEVOPS MATTERS THROUGHOUT THE SOFTWARE DEVELOPMENT LIFE CYCLE
+Student: Taharim Haque
+Student ID: 101418321
+Course: COMP3104 - DevOps
+Group: 10
+
+1. The purpose of DevOps in the SDLC
+The software development life cycle (SDLC) covers planning, designing,
+developing, testing, releasing and maintaining software. DevOps connects
+these activities through collaboration, automation and feedback. Its value
+is not limited to deploying a finished application: decisions made earlier
+affect whether the software can be tested, released and supported reliably.
+The explanations below apply topics from the COMP3104 outline to the SDLC.
+
+2. Planning and design
+During planning, developers and operations staff can discuss requirements,
+environments, deployment needs and support responsibilities. This helps the
+team consider operational concerns before implementation. Architectural
+decisions also matter. For example, choosing a monolith or microservices
+affects how components are built, deployed and monitored. COMP3104 includes
+these architectural choices and introduces work tracking through Jira.
+
+3. Development and version control
+Git records how project files change over time. Branches let team members
+work on separate changes, while pull requests give others an opportunity to
+review proposed updates. Clear commits help explain the purpose of a change
+and make earlier versions easier to identify. This is useful when diagnosing
+a defect or deciding which changes should be included in a release.
+
+4. Integration and testing
+Continuous integration can run a build and automated checks when code changes
+are submitted. The team receives feedback while the change is still recent,
+which can make problems easier to investigate. Tests and code-quality checks
+support this process, but their usefulness depends on what they actually
+check. A successful pipeline alone does not prove that software is defect-free.
+COMP3104 covers continuous testing, test automation and SonarQube checks.
+
+5. Release and deployment
+Automated delivery processes make release steps more repeatable. Continuous
+delivery keeps validated changes ready for release, with a release decision
+still possible. Continuous deployment automatically releases changes that
+pass the required checks. Containers can package application dependencies,
+and Infrastructure as Code can describe infrastructure in version-controlled
+files. These practices help teams manage environment and deployment changes.
+
+6. Operations and improvement
+After release, monitoring and logs help teams investigate failures and assess
+application behaviour. Feedback can lead to new requirements, fixes or changes
+to tests and infrastructure. This connects maintenance back to planning and
+development. The course includes monitoring, cloud services, security and
+automation as parts of the wider DevOps workflow.
+
+7. Example from the group assignment
+In Group 10, a member edits their text files on a personal branch and records
+meaningful changes with commits. They push the branch and open a pull request.
+A teammate reviews the content, and GitHub Actions runs the configured
+workflow. If that workflow only prints a message, it demonstrates that the
+automation runs; it does not check factual accuracy or writing quality.
+Human review remains necessary before merging the contribution into main.
+
+Source and explanation
+CSI-COMP3104.pdf, supplied COMP3104 - DevOps course outline, pages 1-2 and 4-6.
+The SDLC discussion and Group 10 example are explanatory applications of the
+outline's topics, rather than quotations from the document.
+
+Preparation: AI-assisted explanation based on the supplied course outline.

@@ -1,0 +1,47 @@
+GEORGE BROWN COLLEGE
+Student: Taharim Haque
+Student ID: 101418321
+Course: COMP3104 - DevOps
+Group: 10
+
+1. College overview
+George Brown College, identified on its current official website as George
+Brown Polytechnic, is a postsecondary institution in Toronto, Ontario.
+It offers full-time, part-time and continuing education options leading to
+credentials such as certificates, diplomas and degrees. Its location connects
+students with the businesses and organizations operating in Toronto.
+
+2. Campuses and programs
+The official website lists three main campuses: Casa Loma, St. James and
+Waterfront. Academic areas include applied science and engineering technology,
+business and creative industries, culinary arts, community services and health
+sciences. Students can explore different programs and delivery options through
+the institution's online program resources.
+
+3. Practical learning and industry connections
+George Brown works with industry partners that contribute to curriculum,
+field education and employment opportunities. Its work-integrated learning
+approach connects academic study with experience in professional settings.
+Depending on the program, this can include placements, co-ops, internships,
+applied research or apprenticeships. These opportunities involve cooperation
+between the student, the institution and a host organization. They connect
+classroom knowledge with workplace expectations and practical responsibilities.
+
+4. Student resources
+The college website provides access to the Library Learning Commons, tutoring,
+career services, counselling and Accessible Learning Services. Students also
+use Brightspace (D2L) for course activities and STU-View for academic services.
+
+5. Connection to this assignment
+This group assignment is an example of learning through practice. Researching
+information, organizing files and collaborating through Git helps students
+develop technical and communication skills. Recording changes clearly also
+helps a team explain what each member contributed to a shared project.
+
+Sources (accessed October 17, 2026)
+1. George Brown - About:
+   https://www.georgebrown.ca/about
+2. George Brown - Work-Integrated Learning:
+   https://www.georgebrown.ca/about/academic-excellence/work-integrated-learning-wil
+
+Preparation: AI-assisted research summary using the sources listed above.

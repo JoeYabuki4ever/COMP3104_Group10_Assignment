@@ -1,0 +1,10 @@
+name: Group 10 CI
+
+on: [push, pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm workflow runs
+        run: echo "Group 10 CI is working."

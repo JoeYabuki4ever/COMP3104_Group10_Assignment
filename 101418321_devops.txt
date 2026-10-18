@@ -58,3 +58,5 @@ CSI-COMP3104.pdf, supplied COMP3104 - DevOps course outline:
 The outline states that the topical schedule may change with notification.
 
 Preparation: AI-assisted paraphrase and explanation of the supplied outline.
+
+For example, a developer can create a branch to update documentation while another teammate works on a separate file. They can then review their contributions before merging them.

@@ -45,3 +45,5 @@ Sources (accessed October 17, 2026)
    https://www.georgebrown.ca/about/academic-excellence/work-integrated-learning-wil
 
 Preparation: AI-assisted research summary using the sources listed above.
+
+Working in a shared repository also gives students practice reviewing a teammate's contributions and explaining changes clearly.

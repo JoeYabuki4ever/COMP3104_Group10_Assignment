@@ -2,7 +2,7 @@ GEORGE BROWN COLLEGE
 Student: Taharim Haque
 Student ID: 101418321
 Course: COMP3104 - DevOps
-Group: 10
+Project: Group 10 (instructor-approved individual submission)
 
 1. College overview
 George Brown College, identified on its current official website as George
@@ -33,10 +33,10 @@ career services, counselling and Accessible Learning Services. Students also
 use Brightspace (D2L) for course activities and STU-View for academic services.
 
 5. Connection to this assignment
-This group assignment is an example of learning through practice. Researching
-information, organizing files and collaborating through Git helps students
-develop technical and communication skills. Recording changes clearly also
-helps a team explain what each member contributed to a shared project.
+This instructor-approved individual assignment is an example of learning
+through practice. Researching information, organizing files and tracking
+changes in Git helps me develop technical and communication skills.
+Descriptive commits also provide evidence of how my work developed.
 
 Sources (accessed October 17, 2026)
 1. George Brown - About:
@@ -46,4 +46,4 @@ Sources (accessed October 17, 2026)
 
 Preparation: AI-assisted research summary using the sources listed above.
 
-Working in a shared repository also gives students practice reviewing a teammate's contributions and explaining changes clearly.
+In this individual project, I can still use branches, pull requests and self-review to explain and verify changes before merging them.

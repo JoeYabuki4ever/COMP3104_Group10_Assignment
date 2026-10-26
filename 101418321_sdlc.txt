@@ -2,7 +2,7 @@ WHY DEVOPS MATTERS THROUGHOUT THE SOFTWARE DEVELOPMENT LIFE CYCLE
 Student: Taharim Haque
 Student ID: 101418321
 Course: COMP3104 - DevOps
-Group: 10
+Project: Group 10 (instructor-approved individual submission)
 
 1. The purpose of DevOps in the SDLC
 The software development life cycle (SDLC) covers planning, designing,
@@ -50,17 +50,17 @@ to tests and infrastructure. This connects maintenance back to planning and
 development. The course includes monitoring, cloud services, security and
 automation as parts of the wider DevOps workflow.
 
-7. Example from the group assignment
-In Group 10, a member edits their text files on a personal branch and records
-meaningful changes with commits. They push the branch and open a pull request.
-A teammate reviews the content, and GitHub Actions runs the configured
-workflow. If that workflow only prints a message, it demonstrates that the
-automation runs; it does not check factual accuracy or writing quality.
-Human review remains necessary before merging the contribution into main.
+7. Example from the individual assignment
+In my instructor-approved individual Group 10 project, I edit the three text
+files on my 101418321-Taharim branch and record meaningful changes with
+commits. I push the branch, open a pull request and inspect the changes.
+GitHub Actions runs the configured workflow. File-presence and echo checks
+confirm that the basic automation works; they do not check research accuracy
+or writing quality. Careful self-review is still important before merging.
 
 Source and explanation
 CSI-COMP3104.pdf, supplied COMP3104 - DevOps course outline, pages 1-2 and 4-6.
-The SDLC discussion and Group 10 example are explanatory applications of the
+The SDLC discussion and individual project example apply the
 outline's topics, rather than quotations from the document.
 
 Preparation: AI-assisted explanation based on the supplied course outline.

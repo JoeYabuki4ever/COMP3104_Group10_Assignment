@@ -24,11 +24,7 @@ GitHub Actions workflow to manage their contributions.
 
 | Taharim Haque | 101418321 | To be added | Group Leader |
 
-| Almas Sultana | To be added | To be added | Team Member |
 
-| Juela Topi | To be added | To be added | Team Member |
-
-| Arcadio Vega | To be added | To be added | Team Member |
 
 
 

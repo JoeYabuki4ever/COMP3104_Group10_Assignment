@@ -1,7 +1,7 @@
 COMP3104 - DEVOPS COURSE INFORMATION
 Student: Taharim Haque
 Student ID: 101418321
-Group: 10
+Project: Group 10 (instructor-approved individual submission)
 
 1. Course purpose
 COMP3104 introduces the procedures, responsibilities and best practices used
@@ -44,12 +44,12 @@ topics compare monolithic applications with microservices and consider
 vertical and horizontal scaling.
 
 6. Connection to the Group 10 assignment
-The shared GitHub repository gives the team a practical setting for applying
-version control and collaboration. Each member's branch separates their work
-while commits document progress. Pull requests provide an opportunity to
-review changes before combining them. The assignment's GitHub Actions
-workflow illustrates automated checks; GitHub Actions is the assignment tool,
-while Travis CI and Jenkins are explicitly named in the supplied course outline.
+My GitHub repository provides a practical setting for applying version
+control. I use the 101418321-Taharim branch to keep work separate from
+main, and descriptive commits document my progress. Pull requests allow
+me to inspect changes before merging them. The GitHub Actions workflow
+illustrates automated checks; GitHub Actions is the assignment tool,
+while Travis CI and Jenkins are named in the supplied course outline.
 
 Source
 CSI-COMP3104.pdf, supplied COMP3104 - DevOps course outline:
@@ -59,4 +59,4 @@ The outline states that the topical schedule may change with notification.
 
 Preparation: AI-assisted paraphrase and explanation of the supplied outline.
 
-For example, a developer can create a branch to update documentation while another teammate works on a separate file. They can then review their contributions before merging them.
+For example, even when working alone, I can create a branch for documentation changes, review the diff, and verify GitHub Actions before merging into main.

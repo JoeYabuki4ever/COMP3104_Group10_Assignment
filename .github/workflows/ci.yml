@@ -1,10 +1,29 @@
-name: Group 10 CI
+name: Group 10 Individual Assignment CI
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
 
 jobs:
-  check:
+  check-assignment-files:
     runs-on: ubuntu-latest
     steps:
-      - name: Confirm workflow runs
-        run: echo "Group 10 CI is working."
+      - name: Confirm that GitHub Actions started
+        run: |
+          echo "COMP3104 individual submission - Taharim Haque (101418321)"
+          echo "Running on ubuntu-latest."
+
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Verify assignment files
+        run: |
+          test -s README.md
+          test -s .github/PULL_REQUEST_TEMPLATE.md
+          test -s 101418321_gb.txt
+          test -s 101418321_devops.txt
+          test -s 101418321_sdlc.txt
+          echo "All five required non-empty project files are present."
+
+      - name: Finish CI demonstration
+        run: echo "GitHub Actions completed the individual assignment checks."

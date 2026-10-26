@@ -1,32 +1,21 @@
-\## Description
+## Description
 
-Please include a summary of the changes and the related issue.
+Please include a summary of the changes and the related issue (if any).
 
+## Type of Change
 
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Documentation update
 
-\## Type of Change
+## Checklist
 
-\- \[ ] Bug fix
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes
 
-\- \[ ] New feature
-
-\- \[ ] Documentation update
-
-
-
-\## Checklist
-
-\- \[ ] My code follows the style guidelines of this project
-
-\- \[ ] I have performed a self-review of my code
-
-\- \[ ] I have commented my code, particularly in hard-to-understand areas
-
-\- \[ ] I have made corresponding changes to the documentation
-
-\- \[ ] My changes generate no new warnings
-
-\- \[ ] I have added tests that prove my fix is effective or that my feature works
-
-\- \[ ] New and existing unit tests pass locally with my changes
-
+Only check items that actually apply and have been completed. Explain any not-applicable items in the description when useful.

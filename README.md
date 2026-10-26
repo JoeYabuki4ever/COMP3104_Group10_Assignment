@@ -1,134 +1,94 @@
-\# COMP3104 Group 10 Assignment
+# COMP3104 Group 10 Assignment — Individual Submission
 
+## Project Description
 
+This repository is for the COMP3104 DevOps assignment at George Brown College. Although the repository retains the assigned **Group 10** name, **Taharim Haque is completing the project individually with the instructor's permission**. This is not a multi-member submission, and no other students are associated with this assignment submission.
 
-\## Project Description
+The project demonstrates Git version control, a personal developer branch, meaningful commits, pull requests into `main`, and a basic continuous integration (CI) workflow using GitHub Actions.
 
-This project demonstrates collaboration using Git and GitHub for the
+## Student / Sole Contributor
 
-COMP3104 DevOps course at George Brown College. Team members use
-
-personal branches, meaningful commits, pull requests and an automated
-
-GitHub Actions workflow to manage their contributions.
-
-
-
-\## Team Members
-
-
-
-| Name | Student ID | GitHub Profile | Role |
-
+| Student | Student ID | GitHub profile | Submission role |
 | --- | --- | --- | --- |
+| Taharim Haque | 101418321 | [JoeYabuki4ever](https://github.com/JoeYabuki4ever) | Sole contributor / submitter |
 
-| Taharim Haque | 101418321 | To be added | Group Leader |
+**Individual-work arrangement:** The instructor has permitted this assignment to be completed by one student. Requirements about gathering files, commits, or screenshots from *other* group members therefore do not apply to this submission. The remaining technical requirements, including creating three files and at least 10 authentic commits, still apply unless the instructor separately waived them.
 
+## GitHub Repository
 
+[COMP3104_Group10_Assignment](https://github.com/JoeYabuki4ever/COMP3104_Group10_Assignment)
 
+## Setup Instructions
 
+1. Install Git, then clone the repository:
 
-\## Repository
+   ```bash
+   git clone https://github.com/JoeYabuki4ever/COMP3104_Group10_Assignment.git
+   cd COMP3104_Group10_Assignment
+   ```
 
-https://github.com/JoeYabuki4ever/COMP3104\_Group10\_Assignment
+2. Switch to the individual development branch:
 
+   ```bash
+   git fetch origin
+   git switch 101418321-Taharim
+   # If the branch exists only on GitHub, use:
+   # git switch --track origin/101418321-Taharim
+   ```
 
+3. Edit the three assignment files in the repository **root** and create genuine, descriptive commits whenever meaningful work is completed:
 
-\## Setup Instructions
+   ```bash
+   git add 101418321_gb.txt 101418321_devops.txt 101418321_sdlc.txt
+   git commit -m "Improve research and explanations"
+   git push -u origin 101418321-Taharim
+   ```
 
-1\. Install Git.
+   Run `git status` before committing. Git will not create a commit when there are no changes. Do **not** fabricate or backdate commit history.
 
-2\. Clone the repository:
+4. Open a pull request from `101418321-Taharim` into `main`, inspect the diff and CI results, resolve conflicts if necessary, then merge. Retain the GitHub record as submission evidence.
 
+## Assignment Files
 
+The sole contributor, Taharim Haque, maintains these three root-level files:
 
-&#x20;  git clone https://github.com/JoeYabuki4ever/COMP3104\_Group10\_Assignment.git
+| File | Required content |
+| --- | --- |
+| `101418321_gb.txt` | Information about George Brown College |
+| `101418321_devops.txt` | Information about the COMP3104 DevOps course |
+| `101418321_sdlc.txt` | The importance of DevOps in the software development life cycle |
 
+The assignment asks for **at least 10 descriptive commits per participating student**. Since this is approved individual work, this means **10 genuine commits by Taharim**, unless otherwise directed by the instructor. Commit history is stored in Git/GitHub and is not contained in a downloaded ZIP.
 
+## CI/CD Setup — GitHub Actions
 
-3\. Enter the project folder:
+The CI workflow is stored at [`.github/workflows/ci.yml`](.github/workflows/ci.yml).
 
+- Triggers on pushes and pull requests.
+- Uses GitHub's `ubuntu-latest` runner.
+- Checks out the repository and confirms that the README, pull request template, and Taharim's three assignment text files exist and are non-empty.
+- Prints success information to demonstrate an operational pipeline.
+- This is a basic CI demonstration; it does not test factual research accuracy, count commits, or deploy an application.
 
+See real run results in the [GitHub Actions tab](https://github.com/JoeYabuki4ever/COMP3104_Group10_Assignment/actions).
 
-&#x20;  cd COMP3104\_Group10\_Assignment
+## Branch Strategy and Pull Requests
 
+- `main`: integration branch containing completed changes.
+- `101418321-Taharim`: Taharim's individual development branch (format `STUDENTID-Name`).
+- Work is committed to the individual branch and proposed to `main` with a pull request.
+- The pull request template is located at [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md).
+- Since the instructor approved individual completion, Taharim can self-review and check the CI result; any additional approval or branch-protection rule set by the instructor still applies.
 
+## Step 9 — Final Submission Evidence
 
-4\. Create your personal branch using your student ID and name:
+Prepare **one PDF or DOCX**, submitted by Taharim through the designated D2L assignment folder. Include:
 
+1. The GitHub repository URL.
+2. One screenshot of **Taharim's local repository setup**.
+3. One screenshot of **Taharim's Git commit history**, showing the authentic commits.
+4. One screenshot of **the `main` and `101418321-Taharim` branch structure**.
+5. One screenshot of **the GitHub Actions CI pipeline status**.
+6. A short explanation that this is an **instructor-approved individual submission**. No other group members need to be listed as non-contributors because this submission has no other members.
 
-
-&#x20;  git checkout -b STUDENTID-Name
-
-
-
-5\. Add or update your assignment files, commit your changes and push
-
-&#x20;  your branch to GitHub.
-
-
-
-\## Assignment Files
-
-Each member creates three text files in the repository root:
-
-
-
-\- STUDENTID\_gb.txt: Information about George Brown College.
-
-\- STUDENTID\_devops.txt: Information about the COMP3104 DevOps course.
-
-\- STUDENTID\_sdlc.txt: The importance of DevOps throughout the software
-
-&#x20; development life cycle.
-
-
-
-Each member must make at least 10 meaningful commits.
-
-
-
-\## GitHub Actions
-
-The workflow is located at `.github/workflows/ci.yml`.
-
-
-
-It runs on pushes and pull requests using an Ubuntu runner and prints
-
-a confirmation message. This demonstrates automated workflow execution;
-
-it does not validate the accuracy of the text files.
-
-
-
-Workflow results can be viewed in the repository's Actions tab.
-
-
-
-\## Branch Strategy
-
-\- The `main` branch contains the team's merged contributions.
-
-\- Each member works on a branch named `STUDENTID-Name`.
-
-\- Taharim's branch is `101418321-Taharim`.
-
-\- Members submit pull requests from their personal branches into `main`.
-
-\- A teammate reviews the changes before merging.
-
-\- Merge conflicts are resolved before completing the merge.
-
-\- Use "Create a merge commit" to preserve individual commit history.
-
-
-
-\## Pull Request Template
-
-The template is located at `.github/PULL\_REQUEST\_TEMPLATE.md`.
-
-Members describe their changes and complete the applicable checklist
-
-items when opening a pull request.
-
+Capture the screenshots from the actual Git Bash environment/GitHub site. This ZIP contains source files and cannot itself prove prior Git activity or completed CI runs.
